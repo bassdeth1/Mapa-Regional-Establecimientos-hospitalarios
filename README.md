@@ -1,6 +1,6 @@
 # Mapa Regional de Establecimientos Hospitalarios
 
-Este proyecto muestra un mapa interactivo con los establecimientos de salud de la Región del Maule. Está diseñado para ser fácilmente instalable y operativo en menos de 15 minutos para cualquier establecimiento o servicio de la red Minsal (solo se usaron datos publicos).
+Este proyecto muestra un mapa interactivo con los establecimientos de salud de la Región del Maule. Está diseñado para ser fácilmente instalable y operativo en menos de 15 minutos.
 
 ## Beneficios del Sistema
 
@@ -11,11 +11,18 @@ Este proyecto muestra un mapa interactivo con los establecimientos de salud de l
 - **Responsivo:** La interfaz está diseñada para adaptarse a diferentes tamaños de pantalla, ofreciendo una experiencia óptima tanto en dispositivos móviles como en computadoras de escritorio.
 - **Adaptable:** Aunque está enfocado en los establecimientos de salud de la red MINSAL, el código puede adaptarse fácilmente para otros proyectos con requisitos similares.
 
+## Descarga y Filtrado de Datos
+
+1. Visita [datos.gob.cl](https://datos.gob.cl/dataset/establecimientos-de-salud-vigentes) para descargar el archivo `EstablecimientosSaludVigentes.csv`.
+2. Filtra los datos para incluir solo los establecimientos de la Región del Maule.
+3. Convierte el archivo filtrado a formato JSON para integrarlo en el proyecto.
+4. Reemplaza el archivo `mapa.json` en este proyecto con el JSON que generaste.
+
 ## Operatividad
 
 1. Clona el repositorio en tu máquina local.
 2. Modifica el archivo JSON con los datos de los establecimientos.
-3. Abre el archivo HTML en tu navegador o intégralo en tu proyecto web.
+3. Abre el archivo `mapa.php` en tu navegador o intégralo en tu proyecto web.
 4. ¡Listo! Tu mapa interactivo estará funcionando.
 
 ## Tecnología Utilizada
@@ -38,4 +45,3 @@ Para usar este sistema, necesitas un entorno que soporte HTML, CSS, y JavaScript
 ## Adaptabilidad
 
 Aunque está diseñado para la red de establecimientos MINSAL, el sistema puede adaptarse para otros proyectos que necesiten visualización de datos en mapas. Solo es necesario ajustar el archivo JSON con los datos requeridos.
-
