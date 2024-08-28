@@ -1,0 +1,2 @@
+leaflet==1.9.3
+openstreetmap==0.2
