@@ -15,7 +15,7 @@ Este proyecto muestra un mapa interactivo con los establecimientos de salud de l
 
 1. Visita [datos.gob.cl](https://datos.gob.cl/dataset/establecimientos-de-salud-vigentes) para descargar el archivo `EstablecimientosSaludVigentes.csv`.
 2. Filtra los datos para incluir solo los establecimientos de la Región o comuna, los demas hay que borrarlos.
-3. Convierte el archivo filtrado a formato JSON para integrarlo en el proyecto [datos.gob.cl](https://csvjson.com/csv2json)
+3. Convierte el archivo filtrado a formato JSON para integrarlo en el proyecto [página para transformar csv a json](https://csvjson.com/csv2json)
 4. Reemplaza el archivo `mapa.json` en este proyecto con el JSON que generaste.
 
 ## Operatividad
